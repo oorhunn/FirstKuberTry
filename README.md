@@ -3,7 +3,35 @@ Kubernetes Hello World Project
 
 # Hello World Express Node.js Application
 
-This is a simple Node.js application built with Express that provides an HTTP endpoint returning a "Hello World" message.
+This is a simple Node.js application built with Express that provides an HTTP endpoint returning a "Hello World" message. You can visit the http://34.172.214.193:3000/ or simply use curl.
+
+```
+curl http://34.172.214.193:3000/
+```
+
+Expected curl response:
+
+```
+StatusCode        : 200
+StatusDescription : OK
+Content           : <!DOCTYPE html><html><head><title>Hello World</title><link rel="stylesheet"
+                    href="/stylesheets/style.css"></head><body><h1>Hello World</h1></body></html>
+RawContent        : HTTP/1.1 200 OK
+                    Connection: keep-alive
+                    Keep-Alive: timeout=5
+                    Content-Length: 153
+                    Content-Type: text/html; charset=utf-8
+                    Date: Thu, 25 May 2023 20:09:50 GMT
+                    ETag: W/"99-MXbdwifHnRoLyrqx0znE1aE+0r...
+Forms             : {}
+Headers           : {[Connection, keep-alive], [Keep-Alive, timeout=5], [Content-Length, 153], [Content-Type,
+                    text/html; charset=utf-8]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : mshtml.HTMLDocumentClass
+RawContentLength  : 153
+```
 
 ## Getting Started
 
