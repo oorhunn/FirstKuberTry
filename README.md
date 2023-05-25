@@ -1,9 +1,6 @@
-# FirstKuberTry
-Kubernetes Hello World Project
-
 # Hello World Express Node.js Application
 
-This is a simple Node.js application built with Express that provides an HTTP endpoint returning a "Hello World" message. You can visit the http://34.172.214.193:3000/ or simply use curl.
+This is a simple Node.js application built with Express that provides an HTTP endpoint returning a "Hello World" message. You can visit the http://34.172.214.193:3000/ or simply use curl. This project is deployed in google cloud kubernetes cluster.
 
 ```
 curl http://34.172.214.193:3000/
